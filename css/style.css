@@ -1,0 +1,121 @@
+/* HTML ELEMENTS START */
+hr {
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* HTML ELEMENTS END */
+
+/* Navbar start */
+.navbar {
+    margin: 10px 50px 0;
+}
+
+/* Navbar end */
+
+/* Header start */
+.slogan,
+.awsome {
+    text-transform: uppercase;
+}
+
+.collage {
+    border-radius: 20px;
+}
+
+.header-container {
+    padding-top: 1rem !important;
+}
+
+#typewriter {
+    /* font-size: 36px; */
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 3px solid #000; */
+    animation: typing 1s steps(20) infinite;
+    color: red;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+/* Header end */
+
+/* Services section start */
+/* Services section end */
+
+
+
+/* Pricing start */
+.test {
+    border: none;
+}
+
+.pricing {
+    padding: 20px 20px 0;
+}
+
+.buttons button {
+    width: 48%;
+}
+
+.btn-radio label {
+    margin: 0 10px;
+}
+
+/* pricing modal section */
+.a-info {
+    text-decoration: none;
+}
+
+/* Pricing end */
+
+/* About section start */
+.py-5 {
+    padding-top: 2rem !important;
+    padding-bottom: 1rem !important;
+}
+
+/* About section end */
+
+/* Testimonial section start */
+.carousel-item {
+    text-align: center;
+    padding: 0 150px;
+}
+/* Testimonial section start */
+
+/* footer section start */
+.contact {
+    margin: 150px auto 0;
+}
+/* footer section end */
+
+
+
+@media (max-width:454px) {
+    .slogan {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-container img {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .carousel-item {
+        text-align: center;
+        padding: 0 50px;
+    }
+}

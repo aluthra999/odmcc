@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ODMCC</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awsome CDN -->
+    <script src="https://kit.fontawesome.com/aa2f291ae1.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <!-- <img src="./images/navbar-brand.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top brand"> -->
+                <span class="brand-title">ON DEMAND MOBILE CAR CARE</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="d-none d-lg-block border-bottom border-2"></div>
+
+    <section id="header">
+        <div class="container col-xxl-8 px-4 py-5 header-container">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5 header-title">
+                <div class="col-10 col-sm-8 col-lg-6 image-container">
+                    <img src="./images/hero-collage.png" class="d-block mx-lg-auto img-fluid collage"
+                        alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 slogan">Get your car cleaned without
+                        leaving
+                        <span id="typewriter"></span>
+                    </h1>
+                    <p class="lead">We will come to you, home or work and will clean your car without using your
+                        electricity
+                        or water.</p>
+                    <p class="awsome">Isn't that awsome!</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Book Now</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="about" id="about">
+        <div class="px-4 py-5 my-5 text-center">
+            <!-- <img class="d-block mx-auto mb-4" src="./images/logo.png" alt="" width="100" height="100"> -->
+            <h1 class="display-5 fw-bold text-body-emphasis">About Us</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">On Demand is a mobile detailing service provider that caters to the
+                    auto detailing needs of our clients at their preferred location, be it their home or office. Our
+                    team of experienced and professional detailers is dedicated to delivering the best detailing
+                    services to our clients.</p>
+            </div>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                        <i class="fa-solid fa-truck-front"></i>
+                    </div>
+                    <h3 class="fs-2">Mobile Service</h3>
+                    <br>
+                    <p>We understand that life can be busy, and finding the time to take your car to a detailer can be
+                        challenging. That's why we bring our services to you. Our fully equipped mobile units are
+                        designed to provide a complete detailing experience, without having to leave your premises.</p>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <h3 class="fs-2">Professional Team</h3>
+                    <br>
+                    <p>Our team is passionate about cars and providing the best possible experience for our clients. We
+                        pride ourselves on our attention to detail and strive to make every car we work on look like
+                        new. Whether it's a quick wash or a full detailing service, we treat every vehicle with the same
+                        level of care and attention.</p>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                        <i class="fa-solid fa-wallet"></i>
+                    </div>
+                    <h3 class="fs-2">Affordable Luxury</h3>
+                    <br>
+                    <p>At Island Auto Detailers, we are committed to sustainability. We <span
+                            style="text-decoration: underline;">
+                            don't</span> rely on our clients' electricity or water, as we bring our own power and water
+                        supply.
+                        This approach allows us to deliver the same high-quality detailing services while minimizing our
+                        impact on the environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <hr>
+
+    <section class="pricing" id="pricing">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Our Plans</h1>
+            <p>Our pricing is based on the size and condition of your vehicle, as well
+                as the specific services you choose. We offer a range of detailing packages.</p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Value Pack</h4>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="btn-group btn-radio" data-toggle="buttons">
+                            <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off"
+                                checked>
+                            <label class="btn btn-outline-primary" for="option1">Sedan or smaller <br> $49.99</label>
+
+                            <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="option2">SUV/Van/Truck <br> $69.99</label>
+                        </div>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Interior Vacuuming</li>
+                            <li>All Surface Cleaning</li>
+                            <li>Leather Cleaning</li>
+                            <li>Trunk Vacuuming</li>
+                            <li>Exterior and Interior Window Cleaning</li>
+                        </ul>
+                        <div class="buttons">
+                            <button type="button" class="btn btn-outline-dark">Book Now</button>
+                            <button type="button" class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Standard Pack</h4>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="btn-group btn-radio" data-toggle="buttons">
+                            <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="option3">Sedan or smaller <br> $79.99</label>
+
+                            <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="option4">SUV/Van/Truck <br> $99.99</label>
+                        </div>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li
+                                title="Thoroughly removing dirt, dust, and debris from all interior surfaces, leaving your car looking fresh and tidy.">
+                                Interior Vacuuming</li>
+                            <li
+                                title="Meticulously cleaning and sanitizing all surfaces, including dashboard, console, door panels, and more, to restore that new car shine.">
+                                All Surface Cleaning</li>
+                            <li
+                                title="Deep cleaning your fabric to eliminate stains, odors, and any accumulated dirt, providing a refreshed and inviting interior.">
+                                Upholstery Shampoo</li>
+                            <li
+                                title="Taking special care of your leather seats, ensuring they are gently cleaned and conditioned to maintain their luxurious appearance.">
+                                Leather Cleaning</li>
+                            <li
+                                title="Ensuring even the hard-to-reach areas are cleaned, including your trunk, so you can enjoy a spotless and organized storage space.">
+                                Trunk Cleaning
+                            </li>
+                            <li
+                                title="Giving special attention to your windows, both inside and out, for a crystal-clear view and enhanced aesthetics.">
+                                Exterior and Interior Window Cleaning</li>
+                        </ul>
+                        <div class="buttons">
+                            <button type="button" class="btn btn-outline-dark">Book Now</button>
+                            <button type="button" class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Interior Care</h4>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="btn-group btn-radio" data-toggle="buttons">
+                            <input type="radio" class="btn-check" name="options" id="option5" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="option5">Sedan or smaller <br> $114.99</label>
+
+                            <input type="radio" class="btn-check" name="options" id="option6" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="option6">SUV/Van/Truck <br> $134.99</label>
+                        </div>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li
+                                title="Thoroughly removing dirt, dust, and debris from all interior surfaces, leaving your car looking fresh and tidy.">
+                                Interior Vacuuming</li>
+                            <li
+                                title="Meticulously cleaning and sanitizing all surfaces, including dashboard, console, door panels, and more, to restore that new car shine.">
+                                All Surface Cleaning</li>
+                            <li
+                                title="Deep cleaning your fabric to eliminate stains, odors, and any accumulated dirt, providing a refreshed and inviting interior.">
+                                Upholstery Shampoo</li>
+                            <li
+                                title="Our upholstery steam cleaning service is designed to rejuvenate and restore the appearance of your vechile fabrics. With our expert techniques and high-quality steam cleaning equipment, we effectively remove deep-seated dirt, stains, and allergens, leaving your upholstery fresh, clean, and revitalized.">
+                                Upholstery Steam Cleaning
+                            </li>
+                            <li
+                                title="Our carpet steam cleaning process involves using state-of-the-art equipment and high-quality cleaning agents to extract deep-seated dirt, allergens, and stains from your carpets. We start by carefully inspecting your carpets to identify any specific areas that require special attention. Then, we pre-treat stains and apply a hot water extraction method to deeply cleanse and sanitize the carpets.">
+                                Carpet Steam Cleaning</li>
+                            <li
+                                title="Our plastic and leather conditioning service is designed to nourish, protect, and enhance the appearance of your plastic and leather surfaces. We use premium quality conditioning products that are specially formulated to penetrate and moisturize the materials, restoring their natural luster and suppleness.">
+                                Plastic & Leather conditioning
+                            </li>
+                            <li
+                                title="Taking special care of your leather seats, ensuring they are gently cleaned and conditioned to maintain their luxurious appearance.">
+                                Leather Cleaning</li>
+                            <li
+                                title="Ensuring even the hard-to-reach areas are cleaned, including your trunk, so you can enjoy a spotless and organized storage space.">
+                                Trunk Cleaning
+                            </li>
+                            <li
+                                title="Giving special attention to your windows, both inside and out, for a crystal-clear view and enhanced aesthetics.">
+                                Exterior and Interior Window Cleaning</li>
+                        </ul>
+                        <div class="buttons">
+                            <button type="button" class="btn btn-outline-dark">Book Now</button>
+                            <button type="button" class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Supreme Pack</h4>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="btn-group btn-radio" data-toggle="buttons">
+                            <input type="radio" class="btn-check" name="options" id="option7" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="option7">Sedan or smaller <br> $159.99</label>
+
+                            <input type="radio" class="btn-check" name="options" id="option8" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="option8">SUV/Van/Truck <br> $189.99</label>
+                        </div>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li
+                                title="Our full exterior wash goes beyond a regular car wash. We pay meticulous attention to every detail, ensuring that every inch of your vehicle's exterior is thoroughly cleaned. Our skilled technicians use premium quality products and techniques to remove dirt, grime, and road contaminants, leaving your vehicle's surface immaculately clean and ready for the next step.">
+                                Exterior Wash (with bug removing)</li>
+                            <li
+                                title="In addition to the paintwork, we pay special attention to your rims and tires. Our rim and tire detailing involves careful cleaning, degreasing, and dressing to restore their original shine. We use specialized products that not only remove brake dust, dirt, and grime, but also provide a protective barrier against future damage.">
+                                Tire & Rim Detailing</li>
+                            <li
+                                title="Thoroughly removing dirt, dust, and debris from all interior surfaces, leaving your car looking fresh and tidy.">
+                                Interior Vacuuming</li>
+                            <li
+                                title="Meticulously cleaning and sanitizing all surfaces, including dashboard, console, door panels, and more, to restore that new car shine.">
+                                All Surface Cleaning</li>
+                            <li
+                                title="Deep cleaning your fabric to eliminate stains, odors, and any accumulated dirt, providing a refreshed and inviting interior.">
+                                Upholstery Shampoo</li>
+                            <li
+                                title="Our upholstery steam cleaning service is designed to rejuvenate and restore the appearance of your vechile fabrics. With our expert techniques and high-quality steam cleaning equipment, we effectively remove deep-seated dirt, stains, and allergens, leaving your upholstery fresh, clean, and revitalized.">
+                                Upholstery Steam Cleaning
+                            </li>
+                            <li
+                                title="Our carpet steam cleaning process involves using state-of-the-art equipment and high-quality cleaning agents to extract deep-seated dirt, allergens, and stains from your carpets. We start by carefully inspecting your carpets to identify any specific areas that require special attention. Then, we pre-treat stains and apply a hot water extraction method to deeply cleanse and sanitize the carpets.">
+                                Carpet Steam Cleaning</li>
+                            <li
+                                title="Our plastic and leather conditioning service is designed to nourish, protect, and enhance the appearance of your plastic and leather surfaces. We use premium quality conditioning products that are specially formulated to penetrate and moisturize the materials, restoring their natural luster and suppleness.">
+                                Plastic & Leather conditioning
+                            </li>
+                            <li
+                                title="Taking special care of your leather seats, ensuring they are gently cleaned and conditioned to maintain their luxurious appearance.">
+                                Leather Cleaning</li>
+                            <li
+                                title="Ensuring even the hard-to-reach areas are cleaned, including your trunk, so you can enjoy a spotless and organized storage space.">
+                                Trunk Cleaning
+                            </li>
+                            <li
+                                title="Giving special attention to your windows, both inside and out, for a crystal-clear view and enhanced aesthetics.">
+                                Exterior and Interior Window Cleaning</li>
+                        </ul>
+                        <div class="buttons">
+                            <button type="button" class="btn btn-outline-dark">Book Now</button>
+                            <button type="button" class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Ultimate Pack</h4>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="btn-group btn-radio" data-toggle="buttons">
+                            <input type="radio" class="btn-check" name="options" id="option9" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="option9">Sedan or smaller <br> $199.99</label>
+
+                            <input type="radio" class="btn-check" name="options" id="option10" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="option10">SUV/Van/Truck <br> $249.99</label>
+                        </div>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li
+                                title="Our full exterior wash goes beyond a regular car wash. We pay meticulous attention to every detail, ensuring that every inch of your vehicle's exterior is thoroughly cleaned. Our skilled technicians use premium quality products and techniques to remove dirt, grime, and road contaminants, leaving your vehicle's surface immaculately clean and ready for the next step.">
+                                Full Exterior Wash (with bug removing)</li>
+                            <li
+                                title="In addition to the paintwork, we pay special attention to your rims and tires. Our rim and tire detailing involves careful cleaning, degreasing, and dressing to restore their original shine. We use specialized products that not only remove brake dust, dirt, and grime, but also provide a protective barrier against future damage.">
+                                Tire & Rim Detailing</li>
+                            <li
+                                title="To achieve a truly pristine finish, we perform a clay bar decontamination process. This process effectively removes embedded contaminants that cannot be eliminated through regular washing. The clay bar gently lifts and pulls out these contaminants, leaving your vehicle's paint smooth and free of imperfections.">
+                                Clay Bar Decontamination</li>
+                            <li
+                                title="Thoroughly removing dirt, dust, and debris from all interior surfaces, leaving your car looking fresh and tidy.">
+                                Interior Vacuuming</li>
+                            <li
+                                title="Meticulously cleaning and sanitizing all surfaces, including dashboard, console, door panels, and more, to restore that new car shine.">
+                                All Surface Cleaning</li>
+                            <li
+                                title="Deep cleaning your fabric to eliminate stains, odors, and any accumulated dirt, providing a refreshed and inviting interior.">
+                                Upholstery Shampoo</li>
+                            <li
+                                title="Our upholstery steam cleaning service is designed to rejuvenate and restore the appearance of your vechile fabrics. With our expert techniques and high-quality steam cleaning equipment, we effectively remove deep-seated dirt, stains, and allergens, leaving your upholstery fresh, clean, and revitalized.">
+                                Upholstery Steam Cleaning
+                            </li>
+                            <li
+                                title="Our carpet steam cleaning process involves using state-of-the-art equipment and high-quality cleaning agents to extract deep-seated dirt, allergens, and stains from your carpets. We start by carefully inspecting your carpets to identify any specific areas that require special attention. Then, we pre-treat stains and apply a hot water extraction method to deeply cleanse and sanitize the carpets.">
+                                Carpet Steam Cleaning</li>
+                            <li
+                                title="Our plastic and leather conditioning service is designed to nourish, protect, and enhance the appearance of your plastic and leather surfaces. We use premium quality conditioning products that are specially formulated to penetrate and moisturize the materials, restoring their natural luster and suppleness.">
+                                Plastic & Leather conditioning
+                            </li>
+                            <li
+                                title="Taking special care of your leather seats, ensuring they are gently cleaned and conditioned to maintain their luxurious appearance.">
+                                Leather Cleaning</li>
+                            <li
+                                title="Ensuring even the hard-to-reach areas are cleaned, including your trunk, so you can enjoy a spotless and organized storage space.">
+                                Trunk Cleaning
+                            </li>
+                            <li
+                                title="Giving special attention to your windows, both inside and out, for a crystal-clear view and enhanced aesthetics.">
+                                Exterior and Interior Window Cleaning</li>
+                        </ul>
+                        <div class="buttons">
+                            <button type="button" class="btn btn-outline-dark">Book Now</button>
+                            <button type="button" class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3 text-bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">Monthly Subscription</h4>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="btn-group btn-radio" data-toggle="buttons">
+                            <input type="radio" class="btn-check" name="options" id="option11" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="option11">Sedan or smaller <br> $79.99</label>
+
+                            <input type="radio" class="btn-check" name="options" id="option12" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="option12">SUV/Van/Truck <br> $99.99</label>
+                        </div>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="buttons">
+                            <button type="button" class="btn btn-primary">CONTACT US</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <br>
+    <hr>
+
+    <section class="testimonials" id="testimonials">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Our Happy Customers</h1>
+            <p>See what our customers say about us.</p>
+        </div>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <h6>"Island Auto Wash and Detailing did an incredible job on my car! Their team arrived at my house
+                        on time and was incredibly professional. I was impressed by their attention to detail and the
+                        level of care they put into cleaning my vehicle. I highly recommend their services!"</h6>
+                    <!-- <img src="images/dog-img.jpg" alt="dog-profile" class="testimonial-image"><br> -->
+                    <em>Sarah</em>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <h6>"I've used Island Auto Wash and Detailing multiple times and I'm always blown away by the
+                        quality of their work. They come to my office and clean my car while I work, which is so
+                        convenient. Their team is friendly, efficient, and does an amazing job every time. I wouldn't
+                        trust anyone else with my car!"</h6>
+                    <!-- <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile"><br> -->
+                    <em>Mike</em>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <h6>"I was hesitant to try Island Auto Wash and Detailing at first, but I'm so glad I did. Their
+                        team was able to make my car look like new again! I appreciate that they don't use my
+                        electricity or water, and they bring all their own supplies. Their service is top-notch and the
+                        pricing is very reasonable. I'll definitely be a repeat customer!"</h6>
+                    <!-- <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile"><br> -->
+                    <em>Karen</em>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <h6>"Island Auto Wash and Detailing is simply the best! Their team is always prompt, professional,
+                        and does an amazing job on my car. I appreciate that they come to me and I don't have to waste
+                        time driving to a detailing shop. Their attention to detail is impressive, and they always go
+                        above and beyond to make sure my car is sparkling clean. Highly recommend!"</h6>
+                    <!-- <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile"><br> -->
+                    <em>Jason</em>
+                </div>
+            </div>
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Island Auto Detailing</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-body-secondary" href="tel:+1-289-929-1024"><i
+                                class="fa-solid fa-phone"></i></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="ms-3"><a class="text-body-secondary" href="mailto:info@iad.com"><i
+                                class="fa-solid fa-envelope"></i></a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        const words = ['Home', 'Work'];
+        let index = 0;
+        let letterIndex = 0;
+        let currentWord = '';
+        let isDeleting = false;
+
+        const typewriter = document.getElementById('typewriter');
+
+        function type() {
+            const speed = Math.random() * (100 - 50) + 50;
+
+            if (isDeleting) {
+                currentWord = words[index].substring(0, letterIndex - 1);
+                letterIndex--;
+            } else {
+                currentWord = words[index].substring(0, letterIndex + 1);
+                letterIndex++;
+            }
+
+            typewriter.innerHTML = currentWord;
+
+            if (!isDeleting && letterIndex === words[index].length) {
+                isDeleting = true;
+                setTimeout(() => {
+                    type();
+                }, 2000);
+            } else if (isDeleting && letterIndex === 0) {
+                isDeleting = false;
+                index++;
+                if (index === words.length) {
+                    index = 0;
+                }
+                setTimeout(() => {
+                    type();
+                }, 500);
+            } else {
+                setTimeout(() => {
+                    type();
+                }, speed);
+            }
+        }
+
+        type();
+    </script>
+</body>
+
+</html>
